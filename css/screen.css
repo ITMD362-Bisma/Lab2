@@ -1,7 +1,17 @@
 /* Mobile-first styling */
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+}
+
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: linen;
+    text-align: center;
 }
 
 form {
@@ -15,19 +25,21 @@ input {
   margin-bottom: 10px;
 }
 
-input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
+#submit {
+  background-color: white;
+  color: black;
+  padding: auto;
   border: none;
-  cursor: pointer;
+  text-align: center;
+  margin: auto;
 }
-input[type="reset"] {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
+#reset {
+  background-color:white;
+  color: black;
+  padding: auto;
   border: none;
-  cursor: pointer;
+  margin: 20px;
+  text-align: center;
 }
 
 /* Desktop styling */
@@ -41,5 +53,6 @@ input[type="reset"] {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 10px;
+	  text-align: center;
   }
 }
