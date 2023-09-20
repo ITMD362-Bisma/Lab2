@@ -11,19 +11,38 @@ h1 {
 
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 200px;
   background-color: linen;
-    text-align: center;
+   text-align: center;
 }
 
 form {
   margin: 0 auto;
   max-width: 400px;
+  border: 2px solid darkviolet;
+  padding: 20px;
+  border-radius: 10px; 
 }
 
 label {
+  display: block;
+  text-align: center;
   margin-bottom: 25px;
-   color: darkviolet;
+  color: darkviolet;
+   font-weight: bold;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: darkviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
 }
 
 /* Desktop styling */

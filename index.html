@@ -9,8 +9,11 @@
 	</head>
 	<body>
 		<form method="POST" autocomplete="on" action="#null">
-			<fieldset>
+			
 				<h1>Registration Form</h1>
+				<div>
+					<label>Full Name: <input type="name" name="email_field" placeholder="Name"></label>
+				</div>
 				<div>
 					<label>Email Adress: <input type="email" name="email_field" placeholder="Email Adress"></label>
 				</div>
@@ -20,9 +23,11 @@
 				<div>
 					<label>Date of Birth: <input type="dob" name="date_field" placeholder="Date of Birth"></label>
 				</div>
-			</fieldset>
-			<input type="submit" value="Submit!">
-			<input type="reset" value="Clear">
+			
+			<div class="buttons">
+				<input type="submit" value="Submit!" class="button">
+				<input type="reset" value="Clear" class="button">
+			</div>
 		</form>
 	</body>
 </html>
