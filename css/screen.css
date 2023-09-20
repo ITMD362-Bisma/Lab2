@@ -5,6 +5,8 @@ h1 {
   text-align: center;
   padding: 30px;
   margin: auto;
+  font-weight: bold;
+  color: darkviolet;
 }
 
 body {
@@ -19,27 +21,9 @@ form {
   max-width: 400px;
 }
 
-label,
-input {
-  display: block;
-  margin-bottom: 10px;
-}
-
-#submit {
-  background-color: white;
-  color: black;
-  padding: auto;
-  border: none;
-  text-align: center;
-  margin: auto;
-}
-#reset {
-  background-color:white;
-  color: black;
-  padding: auto;
-  border: none;
-  margin: 20px;
-  text-align: center;
+label {
+  margin-bottom: 25px;
+   color: darkviolet;
 }
 
 /* Desktop styling */
@@ -51,8 +35,6 @@ input {
   label,
   input {
     display: inline-block;
-    margin-right: 20px;
-    margin-bottom: 10px;
 	  text-align: center;
   }
 }
